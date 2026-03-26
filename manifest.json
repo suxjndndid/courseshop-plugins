@@ -1,0 +1,52 @@
+{
+    "name": "CourseShop Framework Plugin Source",
+    "version": "1.0.0",
+    "updated_at": "2026-03-26",
+    "plugins": [
+        {
+            "id": "adapter-thirdparty",
+            "name": "第三方课程对接",
+            "version": "1.0.0",
+            "type": "product_adapter",
+            "description": "对接第三方刷课平台，支持课程查询、下单、进度同步、定时状态巡检",
+            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/adapter-thirdparty.zip",
+            "checksum": "sha256:6e903aaca5307321db69b96e682fb149d9e910ce54cdbada6281454922172222"
+        },
+        {
+            "id": "payment-yizhifu",
+            "name": "易支付",
+            "version": "1.0.0",
+            "type": "payment",
+            "description": "易支付网关对接，支持支付宝/微信支付，异步回调验签",
+            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/payment-yizhifu.zip",
+            "checksum": "sha256:bdb55347831805ecd5e73989e0df5bc6b6eeb5f4dc3f11aaaf3b9066c071358b"
+        },
+        {
+            "id": "notification-email",
+            "name": "邮件通知",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "订单完成/失败邮件通知，支持 SMTP 配置和模板自定义",
+            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-email.zip",
+            "checksum": "sha256:e1b23b5501519ba81905c78fea6fe9e8a6cfaeab0dcffcfa7e0fd22d64a68d4d"
+        },
+        {
+            "id": "storage-webdav",
+            "name": "WebDAV 同步",
+            "version": "1.0.0",
+            "type": "storage",
+            "description": "数据库+文件 WebDAV 远程备份，支持定时自动同步和手动备份/恢复",
+            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/storage-webdav.zip",
+            "checksum": "sha256:4508e7a4ee60af48d18476b31c291d2a386519380a755bcc6728a8cc5388c619"
+        },
+        {
+            "id": "theme-default",
+            "name": "默认主题",
+            "version": "1.0.0",
+            "type": "theme",
+            "description": "框架默认主题，提供亮色/暗色 CSS 变量切换",
+            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/theme-default.zip",
+            "checksum": "sha256:9b7ac966589e31168c43bfd33046ed5a11ec8d773a65a4547b5e71938f71eca8"
+        }
+    ]
+}
