@@ -1,52 +1,115 @@
 {
     "name": "CourseShop Framework Plugin Source",
     "version": "1.0.0",
-    "updated_at": "2026-03-26",
+    "updated_at": "2026-03-31",
     "plugins": [
         {
-            "id": "adapter-thirdparty",
-            "name": "第三方课程对接",
+            "id": "notification-email",
+            "name": "邮件通知",
             "version": "1.0.0",
-            "type": "product_adapter",
-            "description": "对接第三方刷课平台，支持课程查询、下单、进度同步、定时状态巡检",
-            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-thirdparty.zip",
-            "checksum": "sha256:6e903aaca5307321db69b96e682fb149d9e910ce54cdbada6281454922172222"
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/notification-email.zip",
+            "checksum": "sha256:f738d21d3db7f223b2a9f7ef4a869ccaaa949e5d8a7b0d1da2e6d0343da950f4"
+        },
+        {
+            "id": "notification-feishu",
+            "name": "飞书机器人",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/notification-feishu.zip",
+            "checksum": "sha256:98b5069d0c342f55533411e5038630047567a95091da0331fe22686a14594597"
+        },
+        {
+            "id": "notification-pushplus",
+            "name": "PushPlus 推送",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/notification-pushplus.zip",
+            "checksum": "sha256:3777ef78e622f3906383d1585b9db9bcd6a978cec625c08f0e14c321fa527793"
+        },
+        {
+            "id": "notification-telegram",
+            "name": "Telegram 机器人",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/notification-telegram.zip",
+            "checksum": "sha256:0fdfceeab4bdfb580b2e796783f8f9f9227f7f022c46ba3ac050659650b06c0f"
+        },
+        {
+            "id": "notification-webhook",
+            "name": "Webhook 自定义通知",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/notification-webhook.zip",
+            "checksum": "sha256:e470bc9dfb0c70f1c216a991004db85515a7e6038f5be45a3850504dfe24295e"
+        },
+        {
+            "id": "notification-wxpusher",
+            "name": "WxPusher 微信推送",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/notification-wxpusher.zip",
+            "checksum": "sha256:294de5be8c668ee9b6841c57077929f8f8b69e986c4a2fd952fce7bff5c4883c"
         },
         {
             "id": "payment-yizhifu",
             "name": "易支付",
             "version": "1.0.0",
             "type": "payment",
-            "description": "易支付网关对接，支持支付宝/微信支付，异步回调验签",
-            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/payment-yizhifu.zip",
-            "checksum": "sha256:bdb55347831805ecd5e73989e0df5bc6b6eeb5f4dc3f11aaaf3b9066c071358b"
+            "description": "",
+            "download_url": "./plugins/payment-yizhifu.zip",
+            "checksum": "sha256:3e886cd75334eebda17f4799cb1a8d77a9a427c126ec28d795d4894109dfb051"
         },
         {
-            "id": "notification-email",
-            "name": "邮件通知",
+            "id": "adapter-self",
+            "name": "自营商品对接",
             "version": "1.0.0",
-            "type": "notification",
-            "description": "订单完成/失败邮件通知，支持 SMTP 配置和模板自定义",
-            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-email.zip",
-            "checksum": "sha256:e1b23b5501519ba81905c78fea6fe9e8a6cfaeab0dcffcfa7e0fd22d64a68d4d"
+            "type": "product_adapter",
+            "description": "",
+            "download_url": "./plugins/adapter-self.zip",
+            "checksum": "sha256:99afd58d1809985f25a4bc829ab652011c6d5b7628fc552f05fe0ac4c950580f"
+        },
+        {
+            "id": "adapter-thirdparty",
+            "name": "第三方课程对接",
+            "version": "1.0.0",
+            "type": "product_adapter",
+            "description": "",
+            "download_url": "./plugins/adapter-thirdparty.zip",
+            "checksum": "sha256:8a1d6706ee8070ebe6d44459b988ec2bff31341d44b834c2a38c086274a1a4a4"
         },
         {
             "id": "storage-webdav",
             "name": "WebDAV 同步",
             "version": "1.0.0",
             "type": "storage",
-            "description": "数据库+文件 WebDAV 远程备份，支持定时自动同步和手动备份/恢复",
-            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/storage-webdav.zip",
-            "checksum": "sha256:4508e7a4ee60af48d18476b31c291d2a386519380a755bcc6728a8cc5388c619"
+            "description": "",
+            "download_url": "./plugins/storage-webdav.zip",
+            "checksum": "sha256:1202ade3d1a1acf4d1f790e30fea607507be12375ecf806c9d0336ab9052c20b"
+        },
+        {
+            "id": "test",
+            "name": "测试插件",
+            "version": "1.0.0",
+            "type": "notification",
+            "description": "",
+            "download_url": "./plugins/test.zip",
+            "checksum": "sha256:be0954ff4bfd80336b05f177ded7e71f9731f55eda588c8c1fd492bf6d3dbdb7"
         },
         {
             "id": "theme-default",
             "name": "默认主题",
             "version": "1.0.0",
             "type": "theme",
-            "description": "框架默认主题，提供亮色/暗色 CSS 变量切换",
-            "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-default.zip",
-            "checksum": "sha256:9b7ac966589e31168c43bfd33046ed5a11ec8d773a65a4547b5e71938f71eca8"
+            "description": "",
+            "download_url": "./plugins/theme-default.zip",
+            "checksum": "sha256:cf7f81280cc1a5a4877dea1e871626dde2a9526162dd25d8a57259c45b7901b2"
         }
     ]
 }
