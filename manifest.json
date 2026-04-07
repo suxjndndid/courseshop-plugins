@@ -1,7 +1,7 @@
 {
   "name": "CourseShop Framework Plugin Source",
   "version": "1.0.0",
-  "updated_at": "2026-04-06",
+  "updated_at": "2026-04-07",
   "plugins": [
     {
       "id": "adapter-self",
@@ -10,7 +10,7 @@
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/adapter-self.zip",
-      "checksum": "sha256:e6a0ceb7df5b24a45e71584f2a0274e9eb2665b90e6dc93e612ef12c4b77deb1"
+      "checksum": "sha256:5afab7d1359b0439871e0e71ee73520a39c961a24d183acdd529509ada568910"
     },
     {
       "id": "adapter-thirdparty",
@@ -19,7 +19,7 @@
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/adapter-thirdparty.zip",
-      "checksum": "sha256:6a437a6a303649767f81e2939165d2dd29bd0a37d8804b6d850013a8347cd8ad"
+      "checksum": "sha256:fb4348219b79471a2a2bd972c3e92caa92893baa720228c9d73360ff0b2f3c89"
     },
     {
       "id": "notification-email",
@@ -28,7 +28,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-email.zip",
-      "checksum": "sha256:922d13f473af663633219757e04991fe7d3b84b7a41f91d0924a78ebd26e9fc0"
+      "checksum": "sha256:40fd5565a1d82ed6bae2cb913ddf8d8ea4e1fbd8ca408b503897c6be35e2e217"
     },
     {
       "id": "notification-feishu",
@@ -37,7 +37,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-feishu.zip",
-      "checksum": "sha256:417418137d663133170e88846a8b749052c12deefc223c390369652f6144499d"
+      "checksum": "sha256:2bcedb416b0440e0b30d1c94edd1f5b33e46fab9bb3763108b7bbec1921ed44d"
     },
     {
       "id": "notification-pushplus",
@@ -46,7 +46,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-pushplus.zip",
-      "checksum": "sha256:1051559f6468e52b0fccdfe6b61a970b3d7a36aa83d10a359655b0993cf80cd3"
+      "checksum": "sha256:d5b2852695d143725e802e5166e96703ffd74b391aecdd7f6fdf473eb2da56b6"
     },
     {
       "id": "notification-telegram",
@@ -55,7 +55,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-telegram.zip",
-      "checksum": "sha256:451065051001cc0bf9f18b32d97b6b912a2ba8cf93b561db0c7084f4458a5b10"
+      "checksum": "sha256:d2fcca05796ce2cd1734aa5637b4708cb6c66f379a9f1e6c46ccd304520531d7"
     },
     {
       "id": "notification-webhook",
@@ -64,7 +64,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-webhook.zip",
-      "checksum": "sha256:7f9cfc780ffe33a1f3204d2539905d3e7c2968a0b624f6c9a1ca98fae0044435"
+      "checksum": "sha256:ab118d8d8cdf57ee27f24609d8bec1842ddbe254a23ae6494bd96428872f9f79"
     },
     {
       "id": "notification-wxpusher",
@@ -73,7 +73,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/notification-wxpusher.zip",
-      "checksum": "sha256:52a77ae8b330b1a0346d23d499387803d8cccd67b5aaf6b8cef5402636f5887e"
+      "checksum": "sha256:6831dcec2633cf3b9d4a44f7620fc6253bd8fabb4145ea6f5afabafb2f93e3f5"
     },
     {
       "id": "payment-yizhifu",
@@ -82,7 +82,7 @@
       "type": "payment",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/payment-yizhifu.zip",
-      "checksum": "sha256:2df852b31aa60fef64e856e00af85b2c4b2013e5d6e494fd4ce8c9b8fe643085"
+      "checksum": "sha256:9b7870438c4c3b3e037b6652283a7c0ff3bd16c84ecead5a2f5e52a814efd337"
     },
     {
       "id": "storage-webdav",
@@ -91,7 +91,7 @@
       "type": "storage",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/storage-webdav.zip",
-      "checksum": "sha256:2b27c53b517e6aa05c754b98db84d4d254cc02af7779f3363dabf91632a0a3cb"
+      "checksum": "sha256:25ca6b4b3dd886051797ae0d5f4749daba6a9cda6d3c18a91bd80c611e83b868"
     },
     {
       "id": "test",
@@ -100,7 +100,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/test.zip",
-      "checksum": "sha256:a6f60cf30b9c2afd5a7d6040cd0843fcd55bc174863fd44d5a839453a2246b20"
+      "checksum": "sha256:f263bbd273be2e72487dc5c93320ab1f4c5e59e7357a765de55fcf9ee66622b6"
     },
     {
       "id": "theme-default",
@@ -109,7 +109,7 @@
       "type": "theme",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/main/plugins/theme-default.zip",
-      "checksum": "sha256:61515cc4795134d1e18e5d9ceafb0ea96776e7244923b58e1a450dee2f0f7951"
+      "checksum": "sha256:eb9f17ed6e510515dbad82f196af6752985920de649e91ec7b0bbbf40200c690"
     }
   ]
 }
