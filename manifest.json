@@ -1,7 +1,7 @@
 {
-  "name": "CourseShop Framework Plugin Source",
-  "version": "1.0.0",
-  "updated_at": "2026-04-10",
+  "name": "NexusShop Plugin Source",
+  "version": "1.0.1",
+  "updated_at": "2026-04-12",
   "plugins": [
     {
       "id": "adapter-self",
@@ -10,7 +10,7 @@
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-self.zip",
-      "checksum": "sha256:fd6f9bc35b27635c997714d20e32872402963fc49d07c8c636689764f66622f4"
+      "checksum": "sha256:d607d0e8d5a93b910137d657389af343384e0a4dd94df4b56d5a1f35664a18e0"
     },
     {
       "id": "adapter-thirdparty",
@@ -19,7 +19,7 @@
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-thirdparty.zip",
-      "checksum": "sha256:d8f4907112e18996ecba091a906a0cc73905bead725448539a1cf1653660f479"
+      "checksum": "sha256:daa0bd65a083f848443cedb0e08eb7e695c53ea0f1733d2a8eea44e5e573fd58"
     },
     {
       "id": "notification-email",
@@ -28,7 +28,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-email.zip",
-      "checksum": "sha256:07e6b571edf78169550a57f21f65358af614f05d04242ef106a35ebabdd52232"
+      "checksum": "sha256:6c40dc5a91e838b051999e63d546ad9af70bfbe0c0a3d48409e31160713a2cd9"
     },
     {
       "id": "notification-feishu",
@@ -37,7 +37,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-feishu.zip",
-      "checksum": "sha256:cc3ed79154573c2c88d9d9e6882c4922c844ba7d96ab6e7281d5a798c345effd"
+      "checksum": "sha256:cf400d7be1f1727579cc065f82c184dc5f9acefffe8bec5171793688497a3c81"
     },
     {
       "id": "notification-pushplus",
@@ -46,7 +46,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-pushplus.zip",
-      "checksum": "sha256:782b1acdc24d5988f62c2ccf2260c1f3ce8837a7494f05904fffcb6f596c0194"
+      "checksum": "sha256:179f6cd565a711bcdfdb121c62b32af757fd20ac8ae1a1e6968b5c5619de17ab"
     },
     {
       "id": "notification-telegram",
@@ -55,7 +55,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-telegram.zip",
-      "checksum": "sha256:4befec43a930e7ecb43a423f7597b60a34b97b1e84361a76db8118d630ef151a"
+      "checksum": "sha256:f557435d5af3ad64a93798dcc21f303fd90aec0101ca991bee3d01d107d7c32b"
     },
     {
       "id": "notification-webhook",
@@ -64,7 +64,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-webhook.zip",
-      "checksum": "sha256:5087a7aea09e83f3ff8fad6cee4320205ec10e3102b93098014c0c00e9027b41"
+      "checksum": "sha256:6163c1f688bfde03caed002a97c34e87a102eefdd5a6a5163167b00a73b7f51e"
     },
     {
       "id": "notification-wxpusher",
@@ -73,7 +73,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-wxpusher.zip",
-      "checksum": "sha256:a37b4a08a84d106a1eb5baabf3802da6d1abd2db3bffca272a75d05b0d96a00b"
+      "checksum": "sha256:d0bdff03e8e9cf3aa861ae73d0823048387d971e5beef817625f24951c8770e3"
     },
     {
       "id": "payment-yizhifu",
@@ -82,7 +82,7 @@
       "type": "payment",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/payment-yizhifu.zip",
-      "checksum": "sha256:554253749ea78842c7edebc4cf83f8db7e71dbff52e55c07605f3ff0cf9d131e"
+      "checksum": "sha256:cc8c508e0a58a99c924515d369d10954b2adfec6b38da46448711e5fc695855d"
     },
     {
       "id": "storage-webdav",
@@ -91,7 +91,7 @@
       "type": "storage",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/storage-webdav.zip",
-      "checksum": "sha256:f3dcaa8b50647e1811db2c32f4f1e6f40a1057f46ebed5a8a50edcd0abfa1b33"
+      "checksum": "sha256:332e5ccbcfe6ebb5f76d8fbe9536d597e573e0042897961b94fa48c02811579e"
     },
     {
       "id": "test",
@@ -100,16 +100,61 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/test.zip",
-      "checksum": "sha256:6aae8ed7965c293ee45a917998af7539ec9e0a781d7ab0362d8cbaffc07c00d8"
+      "checksum": "sha256:f25e14b70b089af046f2081a71e610da1c1ceb3def76f1105a98afe7da3389fd"
     },
     {
-      "id": "theme-default",
-      "name": "默认主题",
+      "id": "theme-aurora",
+      "name": "极光玻璃主题",
       "version": "1.0.0",
       "type": "theme",
       "description": "",
+      "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-aurora.zip",
+      "checksum": "sha256:f310323b29c1292ec465c3051e1386ba468732324ba1f15801bd8335ada7b4ae"
+    },
+    {
+      "id": "theme-default",
+      "name": "粗野主题",
+      "version": "1.1.0",
+      "type": "theme",
+      "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-default.zip",
-      "checksum": "sha256:9bfcad94f93a59feec53d68605e77468f9884757c4d6762d5fac985d416ed4e2"
+      "checksum": "sha256:1f6d0fb7282f84194c50f0f82aef7557c31baf10e8f24f867159d0ae08fa3c9d"
+    },
+    {
+      "id": "theme-editorial",
+      "name": "杂志编排主题",
+      "version": "1.0.0",
+      "type": "theme",
+      "description": "",
+      "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-editorial.zip",
+      "checksum": "sha256:35f8be2ee646c6fab275d128dc71442d819db34d41b1c6bb17fc679f1b3494f2"
+    },
+    {
+      "id": "theme-minimal",
+      "name": "极简留白主题",
+      "version": "1.0.0",
+      "type": "theme",
+      "description": "",
+      "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-minimal.zip",
+      "checksum": "sha256:7dfa1b6741c13e6dd26833c057abd1d11df9fa511b8bd12b3d18ca53b486e21c"
+    },
+    {
+      "id": "theme-pixel",
+      "name": "像素街机主题",
+      "version": "1.0.0",
+      "type": "theme",
+      "description": "",
+      "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-pixel.zip",
+      "checksum": "sha256:386359c040ded85829795cf8e52880c210d29807e9fe8c2f7e0f44808e082202"
+    },
+    {
+      "id": "theme-simple-pro",
+      "name": "简约专业主题",
+      "version": "1.0.0",
+      "type": "theme",
+      "description": "",
+      "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-simple-pro.zip",
+      "checksum": "sha256:7742d7d896fbf95ecefbdc3f79e7d8fed0d206f28fbea7f71a235a966f7e9abc"
     }
   ]
 }
