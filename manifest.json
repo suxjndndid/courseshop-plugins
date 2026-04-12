@@ -1,6 +1,6 @@
 {
   "name": "NexusShop Plugin Source",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "updated_at": "2026-04-12",
   "plugins": [
     {
@@ -154,7 +154,7 @@
       "type": "theme",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-simple-pro.zip",
-      "checksum": "sha256:7742d7d896fbf95ecefbdc3f79e7d8fed0d206f28fbea7f71a235a966f7e9abc"
+      "checksum": "sha256:f322068a315fcadaa22017040883fae03b9adc3165e2ca40737614af3eb1a12d"
     }
   ]
 }
