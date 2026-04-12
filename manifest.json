@@ -1,25 +1,25 @@
 {
   "name": "NexusShop Plugin Source",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "updated_at": "2026-04-12",
   "plugins": [
     {
       "id": "adapter-self",
       "name": "自营商品对接",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-self.zip",
-      "checksum": "sha256:00c77bd5a567db31befcae625782598e525c378c8c444593635fe1d42c2a9992"
+      "checksum": "sha256:4861062e86a9c2bc4ac2711b9588c0da82c63b0eb3166375d76fafd64d7deab7"
     },
     {
       "id": "adapter-thirdparty",
       "name": "第三方课程对接",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-thirdparty.zip",
-      "checksum": "sha256:66ad241519884a81e8f32d7cf2e4c95bcf8f88afaee73376222eb21750453c7d"
+      "checksum": "sha256:de7a17be7bfce42fabf2fd2c872ccf36b3228ea55c025654b47688465e550abf"
     },
     {
       "id": "notification-email",
@@ -46,7 +46,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-pushplus.zip",
-      "checksum": "sha256:179f6cd565a711bcdfdb121c62b32af757fd20ac8ae1a1e6968b5c5619de17ab"
+      "checksum": "sha256:9fbe66fe1289aebbbb049aa419768f4dc02767ef59f185d4697f4440b9774449"
     },
     {
       "id": "notification-telegram",
@@ -64,7 +64,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/notification-webhook.zip",
-      "checksum": "sha256:6163c1f688bfde03caed002a97c34e87a102eefdd5a6a5163167b00a73b7f51e"
+      "checksum": "sha256:bbe9abb4b5f395166959e0f051f54ddc7586f3eb300efd7f4eb8a81b92089108"
     },
     {
       "id": "notification-wxpusher",
@@ -100,7 +100,7 @@
       "type": "notification",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/test.zip",
-      "checksum": "sha256:f25e14b70b089af046f2081a71e610da1c1ceb3def76f1105a98afe7da3389fd"
+      "checksum": "sha256:c253f030f1c9af6f3544bc4ae72450bd5b383cf61064ba8b835fd4099b40abf7"
     },
     {
       "id": "theme-aurora",
