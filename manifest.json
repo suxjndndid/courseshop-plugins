@@ -1,25 +1,25 @@
 {
   "name": "NexusShop Plugin Source",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "updated_at": "2026-04-12",
   "plugins": [
     {
       "id": "adapter-self",
       "name": "自营商品对接",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-self.zip",
-      "checksum": "sha256:d607d0e8d5a93b910137d657389af343384e0a4dd94df4b56d5a1f35664a18e0"
+      "checksum": "sha256:00c77bd5a567db31befcae625782598e525c378c8c444593635fe1d42c2a9992"
     },
     {
       "id": "adapter-thirdparty",
       "name": "第三方课程对接",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-thirdparty.zip",
-      "checksum": "sha256:daa0bd65a083f848443cedb0e08eb7e695c53ea0f1733d2a8eea44e5e573fd58"
+      "checksum": "sha256:66ad241519884a81e8f32d7cf2e4c95bcf8f88afaee73376222eb21750453c7d"
     },
     {
       "id": "notification-email",
@@ -145,7 +145,7 @@
       "type": "theme",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/theme-pixel.zip",
-      "checksum": "sha256:386359c040ded85829795cf8e52880c210d29807e9fe8c2f7e0f44808e082202"
+      "checksum": "sha256:db57bf1cf237ae18f27752be8761d9380003da8504f22e6219cf60a601551c68"
     },
     {
       "id": "theme-simple-pro",
