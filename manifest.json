@@ -1,6 +1,6 @@
 {
   "name": "NexusShop Plugin Source",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "updated_at": "2026-04-13",
   "plugins": [
     {
@@ -10,7 +10,7 @@
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-self.zip",
-      "checksum": "sha256:06aed7345d93dd02a8aedf66a0e3a1d19747c07502120344023fab88b2662391"
+      "checksum": "sha256:9aab4278d391fe5248a982987af2800ca221d3023aefe96b4e4c68dec6417225"
     },
     {
       "id": "adapter-thirdparty",
@@ -19,7 +19,7 @@
       "type": "product_adapter",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/adapter-thirdparty.zip",
-      "checksum": "sha256:8c9e56669744ca95d8f365f529af2958a5759071b93d3ca48269eb280ca888c0"
+      "checksum": "sha256:bac6e2fe4fb2ba7346420d95523a74fa7df8cb70523265f00bf3181e5bfeafa4"
     },
     {
       "id": "notification-email",
@@ -91,7 +91,7 @@
       "type": "storage",
       "description": "",
       "download_url": "https://raw.githubusercontent.com/suxjndndid/courseshop-plugins/master/plugins/storage-webdav.zip",
-      "checksum": "sha256:332e5ccbcfe6ebb5f76d8fbe9536d597e573e0042897961b94fa48c02811579e"
+      "checksum": "sha256:12f73dcabf15dc32da88db823f3fce290be6830e4e9cd98aed072c2b6642a7d0"
     },
     {
       "id": "test",
